@@ -1,0 +1,51 @@
+h2 {
+    color: white;
+    text-align: center;
+}
+.otpField {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;  
+}
+.phField {
+    display: flex;
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 10px;
+}
+label {
+    font: weight 900px;
+    font-size: medium;
+    color: white;
+    margin: 10px;
+}
+button {
+    background-color: rgba(41, 39, 39, 0.712);
+    color: white;
+    padding: 15px 50px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 0px solid white;
+}
+.btnSpan {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .btnload {
+    display: inline-block;
+    animation: rotate 1s linear infinite;
+  }
+  
